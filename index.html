@@ -1,6 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <style>
+  html, body {
+    height: 100%;
+    margin: 0; /* Remove default browser margins */
+  }
+  body {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;     /* Centers vertically */
+    background-color: #f0f0f0; /* Optional: visual contrast */
+  }
+  canvas {
+    display: block; /* Prevents scrollbars caused by inline spacing */
+  }
+</style>
     <title>My Processing Sketch</title>
     <!-- Load the Processing.js library -->
     <script src="processing.min.js"></script>
